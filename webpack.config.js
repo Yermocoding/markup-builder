@@ -29,6 +29,7 @@ module.exports = {
         {
           from: `${PATHS.src}/${PATHS.assets}/images`,
           to: `${PATHS.assets}/images`,
+          noErrorOnMissing: true,
         },
       ],
     }),
