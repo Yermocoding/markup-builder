@@ -1,0 +1,21 @@
+@import "fonts";
+@import "reset";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 100vh;
+  background-color: #47b5ff;
+
+  h1 {
+    font-size: 3em;
+    color: #dff6ff;
+  }
+
+  img {
+    width: 150px;
+  }
+}
